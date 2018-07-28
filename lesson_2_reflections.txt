@@ -7,3 +7,6 @@ The staging area allows me to add the items I choose to have their changes saved
 How can you use the staging area to make sure you have one commit per logical change?
 The staging area allows me to view the changes I am making compared to the most recent commit. By viewing those differences, I can confirm I have logical changes grouped together and not multiples before finalizing the commit. I am also able to use git diff (with no arguments) to verify any changes I've made that haven't been added to the staging area and need to be committed.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Using branches would be helpful in keeping my history organized by keeping internationalization segments separate; it would allow me to change data by location (ex NEXUS and code being different for different sites --removing pay modal), and would also be helpful as we test out new ideas to items that are in production that you'd need to keep intact until you determine if those changes should become the new master.
+
