@@ -10,3 +10,5 @@ The staging area allows me to view the changes I am making compared to the most 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Using branches would be helpful in keeping my history organized by keeping internationalization segments separate; it would allow me to change data by location (ex NEXUS and code being different for different sites --removing pay modal), and would also be helpful as we test out new ideas to items that are in production that you'd need to keep intact until you determine if those changes should become the new master.
 
+How do the diagrams help you visualize the branch structure?
+ Since git is non-linear, a diagram allows me to map out where the different branches are and to see what changes I am working on in a commit that may not be connected to a branch and potentially lost if I open a master without connecting it or writing down its commit ID.
