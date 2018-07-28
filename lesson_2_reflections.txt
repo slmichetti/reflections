@@ -12,3 +12,8 @@ Using branches would be helpful in keeping my history organized by keeping inter
 
 How do the diagrams help you visualize the branch structure?
  Since git is non-linear, a diagram allows me to map out where the different branches are and to see what changes I am working on in a commit that may not be connected to a branch and potentially lost if I open a master without connecting it or writing down its commit ID.
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ A merge brings in all changes from different branches, while keeping the prervious commits intact so you have access to the history of changes that occured before the merge. It is represented in the diagram as two paths that have markers (commits) that meet and join into one new file, the new master. Its represented that way becuase the commits are still accessible from the new master.
+
+ 
