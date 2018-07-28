@@ -4,3 +4,6 @@ It creates a directory that is typically hidden from the user. It contains files
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area allows me to add the items I choose to have their changes saved and documented. By using a staging area, it allows me to pick and choose files instead of having changes auto-saved before I'm ready. In addition, it allows me to save changes at selected and more logical intervals than an auto-save. The value I see in using a staging area is the flexibility it allows to save files as I'm ready or at a point of completion that makes sense to me to mark the changes. 
 
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area allows me to view the changes I am making compared to the most recent commit. By viewing those differences, I can confirm I have logical changes grouped together and not multiples before finalizing the commit. I am also able to use git diff (with no arguments) to verify any changes I've made that haven't been added to the staging area and need to be committed.
+
