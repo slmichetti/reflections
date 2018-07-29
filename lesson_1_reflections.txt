@@ -30,4 +30,4 @@ How might using version control make you more confident to make changes that cou
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I am excited to use Git for an upcoming programming class! I am also looking forward to learning how I can use Git in other areas and with other files I create personally. 
+    I am excited to use Git for an upcoming programming class and to use it to improve my skills as a developer. I am also looking forward to learning how I can use Git in other areas and with other files I create personally. 
